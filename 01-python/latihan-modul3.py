@@ -1,7 +1,6 @@
 import pandas as pd
 
-# pakai file lokal biar tanpa internet pun jalan (run dari folder C:\Voiceover)
-df = pd.read_csv("data/tips.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv")
 
 print(df.shape)
 print(df.head(3))
@@ -18,5 +17,4 @@ df_tip["tip_pct"] = df_tip["tip"] / df_tip["total_bill"] * 100
 print(df_tip.nlargest(5, "tip_pct"))
 
 anomali = df[(df["size"] >= 5) & (df["total_bill"] < 30)]
-# Insight: 5 meja besar tapi bill kecil -> cek split bill / diskon / salah input, manajer perlu cek SOP.
 print(anomali)
