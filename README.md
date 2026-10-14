@@ -6,7 +6,7 @@ Python (pandas, numpy), SQL, Google Sheets, Looker Studio
 
 ## Progres 6 bulan (1 jam/hari)
 - [x] Fase 0: Setup VS Code + GitHub
-- [x] Fase 1: Python untuk Data
+- [ ] Fase 1: Python untuk Data
 - [ ] Fase 2: Data Cleaning
 - [ ] Fase 3: Statistik
 - [ ] Fase 4: EDA & Visualisasi
