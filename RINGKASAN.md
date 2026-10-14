@@ -44,4 +44,5 @@
 - **Plus:** CV Data Analyst, latihan studi kasus dan interview SQL + studi kasus Indonesia.
 
 ---
-*Update tiap selesai 1 modul. Terakhir: Fase 1 selesai.*
+*Update tiap selesai 1 modul. 
+*Terakhir: Fase 1 selesai.*
