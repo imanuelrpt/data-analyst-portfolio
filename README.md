@@ -1,4 +1,4 @@
-# Data Analyst Portfolio - Imanuel
+# Data Analyst Portfolio - Imanuel Rodericus Parlindungan Tempo
 Fresh graduate Informatika, fokus Python + SQL. Target entry-level Data Analyst.
 
 ## Tools
