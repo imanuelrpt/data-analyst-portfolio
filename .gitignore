@@ -1,0 +1,16 @@
+# python & notebook
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+*.pyc
+
+# env & OS
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+
+# data besar jangan masuk repo (pakai sample saja)
+*.csv
+*.xlsx
+!sample*.csv
