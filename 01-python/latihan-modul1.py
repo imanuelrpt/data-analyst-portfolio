@@ -1,5 +1,3 @@
-"""Fase 1 Modul 1 - Latihan Python Khusus Data."""
-
 penjualan = [
     {"kota": "Jakarta", "produk": "Kopi", "qty": 10, "harga": 20000},
     {"kota": "Bandung", "produk": "Teh", "qty": 5, "harga": 15000},
@@ -7,29 +5,23 @@ penjualan = [
     {"kota": "Surabaya", "produk": "Kopi", "qty": 7, "harga": 20000},
 ]
 
-
 # 1. (Mudah) Total semua qty
 def total_qty(data):
-    # sum + generator: jumlahkan qty tiap item
     return sum(item["qty"] for item in data)
 
-
-print(total_qty(penjualan))  # 25
+print(total_qty(penjualan))
 
 
 # 2. (Sedang) Kota yang beli Kopi, pakai list comprehension
-# pola: [hasil for item in list if syarat]
 kota_kopi = [item["kota"] for item in penjualan if item["produk"] == "Kopi"]
-print(kota_kopi)  # ['Jakarta', 'Surabaya']
+print(kota_kopi)
 
 
 # 3. (Sedang+) Omzet per kota tertentu
 def omzet_per_kota(data, kota):
-    # omzet = sum(qty*harga) hanya untuk kota yang diminta
     return sum(item["qty"] * item["harga"] for item in data if item["kota"] == kota)
 
-
-print(omzet_per_kota(penjualan, "Jakarta"))  # 245000
+print(omzet_per_kota(penjualan, "Jakarta")) 
 
 
 # 4. (Sulit) Rekap omzet semua kota pakai loop + dict
@@ -42,4 +34,4 @@ for item in penjualan:
     else:
         rekap[kota] = omzet
 
-print(rekap)  # {'Jakarta': 245000, 'Bandung': 75000, 'Surabaya': 140000}
+print(rekap)
