@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# data-analyst-portfolio
-=======
 # Data Analyst Portfolio - Imanuel
 Fresh graduate Informatika, fokus Python + SQL. Target entry-level Data Analyst.
 
@@ -24,4 +21,3 @@ Python (pandas, numpy), SQL, Google Sheets, Looker Studio
 ## Cara run
 1. `python -m pip install pandas numpy matplotlib seaborn plotly openpyxl ipykernel`
 2. Buka notebook di `00-setup/` dan Run All dari atas ke bawah
->>>>>>> 0e019d6 (fase0: rapikan README, gitignore, pindah notebook ke 00-setup)
