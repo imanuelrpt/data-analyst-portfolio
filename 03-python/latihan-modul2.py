@@ -64,8 +64,8 @@ def report(df: pd.DataFrame, title: str) -> None:
 
     corr = df[CORR_COLUMNS].corr().round(2)
     print("1) Matriks korelasi\n", corr)
-    a, b, value = strongest_pair(df[CORR_BERSIH].corr().round(2))
-    print(f"   Terkuat bermakna: {a} vs {b} (r = {value:.2f})")
+    a, b, value = strongest_pair(corr)
+    print(f"   Terkuat: {a} vs {b} (r = {value:.2f})")
 
     print("\n2) Sampel 30 vs populasi (total_bayar)")
     for seed in SEEDS:
