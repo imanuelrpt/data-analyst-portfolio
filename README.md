@@ -9,9 +9,9 @@ Python (pandas, numpy, matplotlib, seaborn), SQL, Google Sheets, Looker Studio
 - [x] Phase 1: Python for Data
 - [x] Phase 2: Data Cleaning
 - [x] Phase 3: Statistics
-- [x] Phase 4: EDA & Visualization (in progress)
+- [x] Phase 4: EDA & Visualization
 - [x] Phase 5: SQL
-- [ ] Phase 6: BI & Sheets
+- [ ] Phase 6: BI & Sheets (in progress)
 - [ ] Phase 7: Bonus (Optional - sklearn + automation)
 - [ ] Phase 8: 3 Portfolio Projects
 
