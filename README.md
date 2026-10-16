@@ -12,6 +12,7 @@ Python (pandas, numpy, matplotlib, seaborn), SQL, Google Sheets, Looker Studio
 - [ ] Phase 4: EDA & Visualization (in progress)
 - [ ] Phase 5: SQL
 - [ ] Phase 6: BI & Sheets
+- [ ] Phase 7: Bonus (Optional - sklearn + automation)
 - [ ] Phase 8: 3 Portfolio Projects
 
 ## Structure
