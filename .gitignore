@@ -14,3 +14,8 @@ Thumbs.db
 *.csv
 *.xlsx
 !sample*.csv
+
+# database lokal (generate via kode, jangan di-push)
+*.db
+*.sqlite
+*.sqlite3

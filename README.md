@@ -1,4 +1,4 @@
-# Data Analyst Portfolio - Imanuel Rodericus Parlindungan Tempo
+# Data Analyst Portfolio - Imanuel
 Computer Science fresh graduate focused on Python + SQL. Target: entry-level Data Analyst.
 
 ## Tools
@@ -20,6 +20,7 @@ Python (pandas, numpy, matplotlib, seaborn), SQL, Google Sheets, Looker Studio
 - `02-python/` : Phase 2 exercises (cleaning)
 - `03-python/` : Phase 3 exercises (statistics)
 - `04-python/` : Phase 4 exercises (visualization, charts in `grafik/`)
+- `05-python/` : Phase 5 exercises (SQL via SQLite)
 - `data/` : local datasets (not tracked by git, regenerate via code)
 - `projects/` : end-to-end projects (filled from Phase 8)
 
