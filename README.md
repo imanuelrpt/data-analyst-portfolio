@@ -11,9 +11,9 @@ Python (pandas, numpy, matplotlib, seaborn), SQL, Google Sheets, Looker Studio
 - [x] Phase 3: Statistics
 - [x] Phase 4: EDA & Visualization
 - [x] Phase 5: SQL
-- [ ] Phase 6: BI & Sheets (in progress)
-- [ ] Phase 7: Bonus (Optional - sklearn + automation)
-- [ ] Phase 8: 3 Portfolio Projects
+- [x] Phase 6: BI & Sheets (in progress)
+- [x] Phase 7: Bonus (Optional - sklearn + automation)
+- [x] Phase 8: 3 Portfolio Projects
 
 ## Structure
 - `00-setup/` : environment setup + initial verification
