@@ -37,15 +37,15 @@
 - **Module 4 - SQL x Python:** roundtrip with `read_sql` (heavy aggregation in SQL) + `to_sql` (save results back). BigQuery sandbox for job relevance. Quiz: 5/5.
 - **Findings:** Weekend = 70.4% of revenue; Sat volume leader but below-average tip %; Fri highest share of above-average tips but n=19.
 
-## Phase 6 - BI Tools & Sheets ⏳ In progress
+## Phase 6 - BI Tools & Sheets ✅ Done
 - **Core:** Dashboards that answer business questions. Google Sheets: XLOOKUP, IF, pivot tables. Looker Studio: free interactive dashboards. Intro to Power BI / Tableau for job listings.
 - **Module 1 - Sheets formulas + pivot (done):** `SUM/AVERAGE/COUNTIF/SUMIFS/AVERAGEIFS/IF/XLOOKUP` + `day x time` pivot. Sat Dinner = 2063.31 (clean 241) is the revenue champion -> add staff Saturday dinner. Numbers cross-checked with pandas.
 - **Result:** 1 dashboard + 1 Sheets report.
 
-## Phase 7 - Bonus (Optional) ⏳
+## Phase 7 - Bonus ✅ Done
 - **Core:** Plus points: simple regression/classification with scikit-learn, Python report automation (e.g. weekly recap).
 
-## Phase 8 - Portfolio & Career ⏳
+## Phase 8 - Portfolio & Career ✅ Done
 - **Core:** 3 leveled projects: 1) sales analysis, 2) customer behavior, 3) business dashboard. Each: clear README + re-runnable notebook + 1-2 action insights.
 - **Plus:** Data Analyst CV, case-study drills, SQL + Indonesia case interviews.
 
