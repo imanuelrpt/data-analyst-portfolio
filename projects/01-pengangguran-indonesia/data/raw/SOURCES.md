@@ -1,12 +1,5 @@
 # Sumber Data (Data Sources Log)
 
-Catatan: setiap file di `data/raw/` wajib punya barisnya di sini.
-
-## Format
-| File lokal | Judul tabel BPS | Subjek | Periode | URL | Tanggal unduh | Catatan definisi |
-|---|---|---|---|---|---|---|
-| _(contoh)_ tpt_provinsi_2019-2024.xlsx | Tingkat Pengangguran Terbuka Menurut Provinsi | Tenaga Kerja | 2019-2024 (Agustus) | https://www.bps.go.id/... | 2026-10-17 | TPT = pengangguran / angkatan kerja x 100; pemerintahan daerah "..." |
-
 ## Unduhan
 
 | File lokal | Judul tabel BPS | Subjek | Periode | URL | Tanggal unduh | Catatan definisi |
