@@ -25,17 +25,21 @@
 - **Module 2 - Correlation, sampling, CI:** Meaningful r=0.67 (bill vs tip), trivial r=0.99 excluded (derived column). Sampling with `random_state`. CI95% = mean ± 1.96·SE; bigger n → narrower.
 - **Module 3 - Hypothesis testing:** Welch t-test (Weekend pays ~3.7 more, p=0.004), tip% no significant difference (p=0.649), chi-square day vs time (p~1e-46, Sat/Sun = Dinner only). Segment comparison noted as observational, not causal A/B.
 
-## Phase 4 - EDA & Visualization ⏳ In progress
+## Phase 4 - EDA & Visualization ✅ Done
 - **Core:** Stories from data, not pretty charts. Patterns: univariate (distributions), bivariate (bill vs tip), multivariate (hue/segments).
 - **Rules:** Chart answers the question (bar = compare, line = trend, hist/box = spread, scatter = relationship). Median bars for skewed data. Every portfolio chart: insight title + numbers + 1 action.
 - **Tools:** Matplotlib + Seaborn, figures saved to `04-python/grafik/`.
 
-## Phase 5 - SQL ⏳
-- **Core:** Query databases. Order: SELECT-WHERE-GROUP BY-HAVING → JOIN-subquery-CTE → window functions (ranking, running totals).
-- **Practice:** SQLite / BigQuery sandbox + SQL from Python.
+## Phase 5 - SQL ✅ Done
+- **Module 1 - Filter & recap:** SELECT / WHERE / GROUP BY / HAVING + parameter binding. `HAVING` filters groups, `WHERE` filters rows.
+- **Module 2 - JOIN & CTE:** LEFT JOIN keeps all left rows, INNER drops unmatched. `day_info` dictionary table joined on `day` (unique key). Subquery vs multi-step CTE (`base` -> `rekap`).
+- **Module 3 - Window functions:** `ROW_NUMBER` / `RANK` / `DENSE_RANK`, `LAG`, running total with `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`. Window alias cannot be used in `WHERE` (wrap in subquery/CTE).
+- **Module 4 - SQL x Python:** roundtrip with `read_sql` (heavy aggregation in SQL) + `to_sql` (save results back). BigQuery sandbox for job relevance. Quiz: 5/5.
+- **Findings:** Weekend = 70.4% of revenue; Sat volume leader but below-average tip %; Fri highest share of above-average tips but n=19.
 
-## Phase 6 - BI Tools & Sheets ⏳
+## Phase 6 - BI Tools & Sheets ⏳ In progress
 - **Core:** Dashboards that answer business questions. Google Sheets: XLOOKUP, IF, pivot tables. Looker Studio: free interactive dashboards. Intro to Power BI / Tableau for job listings.
+- **Module 1 - Sheets formulas + pivot (done):** `SUM/AVERAGE/COUNTIF/SUMIFS/AVERAGEIFS/IF/XLOOKUP` + `day x time` pivot. Sat Dinner = 2063.31 (clean 241) is the revenue champion -> add staff Saturday dinner. Numbers cross-checked with pandas.
 - **Result:** 1 dashboard + 1 Sheets report.
 
 ## Phase 7 - Bonus (Optional) ⏳
@@ -46,4 +50,4 @@
 - **Plus:** Data Analyst CV, case-study drills, SQL + Indonesia case interviews.
 
 ---
-*Updated after each module. Last: Phase 4 Module 2 done.*
+*Updated after each module. Last: Phase 6 Module 1 done.*

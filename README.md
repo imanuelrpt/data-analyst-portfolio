@@ -22,6 +22,7 @@ Python (pandas, numpy, matplotlib, seaborn), SQL, Google Sheets, Looker Studio
 - `03-python/` : Phase 3 exercises (statistics)
 - `04-python/` : Phase 4 exercises (visualization, charts in `grafik/`)
 - `05-python/` : Phase 5 exercises (SQL via SQLite)
+- `06-sheets/` : Phase 6 BI exercises (Sheets reports, Looker Studio dashboards)
 - `data/` : local datasets (not tracked by git, regenerate via code)
 - `projects/` : end-to-end projects (filled from Phase 8)
 
