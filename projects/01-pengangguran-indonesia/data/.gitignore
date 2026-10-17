@@ -1,0 +1,4 @@
+# File data sample kecil (BPS, publik) boleh masuk repo
+# supaya orang yang clone bisa menjalankan ulang analisis.
+# File besar tetap ditolak oleh .gitignore root.
+!*.csv
